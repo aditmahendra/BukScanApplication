@@ -55,7 +55,7 @@ public class activity_scanBookCover extends AppCompatActivity {
         txt_res = findViewById(R.id.txt_result);
 
         if(ContextCompat.checkSelfPermission(activity_scanBookCover.this, Manifest.permission.CAMERA) != PackageManager.PERMISSION_GRANTED){
-            //ask the permission
+
             ActivityCompat.requestPermissions(activity_scanBookCover.this, new String[]{
                     Manifest.permission.CAMERA
             }, REQUEST_CAMERA_CODE);
@@ -64,7 +64,7 @@ public class activity_scanBookCover extends AppCompatActivity {
         btn_scan.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
-                //calling crop image activity
+
                 CropImage.activity().setGuidelines(CropImageView.Guidelines.ON).start(activity_scanBookCover.this);
 
             }
