@@ -8,10 +8,54 @@
     tools:context=".homepage">
 
     <RelativeLayout
+        android:id="@+id/homepageHeader"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentTop="true"
+        android:padding="10dp"
+        android:layout_alignParentBottom="false">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_alignParentTop="true"
+            android:background="@drawable/rounder_corners"
+            android:orientation="horizontal"
+            android:padding="10dp">
+
+            <ImageView
+                android:layout_width="200px"
+                android:layout_height="200px"
+                android:background="@drawable/icon_smartphone" />
+            <LinearLayout
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:orientation="vertical">
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="10dp"
+                    android:text="Welcome, user"
+                    android:textStyle="bold"
+                    android:textSize="25sp"/>
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="10dp"
+                    android:text="001201800097"
+                    android:textSize="16sp"/>
+
+            </LinearLayout>
+
+        </LinearLayout>
+    </RelativeLayout>
+
+    <RelativeLayout
+        android:layout_below="@+id/homepageHeader"
         android:layout_width="match_parent"
         android:layout_height="match_parent"
         android:layout_gravity="center"
-        android:layout_marginTop="150dp"
+
         android:background="@drawable/homepage_header"
         android:orientation="vertical"
         android:padding="50dp">
@@ -32,9 +76,18 @@
                     android:id="@+id/cardview_scanCover"
                     android:layout_width="120dp"
                     android:layout_height="120dp"
-                    app:cardBackgroundColor="#FFF200"
+                    app:cardBackgroundColor="@color/alizarin"
                     app:cardCornerRadius="10dp"
-                    app:cardElevation="15dp" />
+                    app:cardElevation="15dp"
+                    app:cardPreventCornerOverlap="false">
+
+                    <ImageView
+                        android:layout_width="200px"
+                        android:layout_height="200px"
+                        android:layout_gravity="center"
+                        android:background="@drawable/icon_scanbook"
+                        android:padding="10dp" />
+                </androidx.cardview.widget.CardView>
 
                 <TextView
                     android:layout_width="wrap_content"
@@ -56,9 +109,18 @@
                     android:id="@+id/cardview_scanBarcode"
                     android:layout_width="120dp"
                     android:layout_height="120dp"
-                    app:cardBackgroundColor="@color/primary"
+                    android:background="@drawable/icon_scanbarcode"
+                    app:cardBackgroundColor="@color/midnightblue"
                     app:cardCornerRadius="10dp"
-                    app:cardElevation="15dp" />
+                    app:cardElevation="15dp">
+
+                    <ImageView
+                        android:layout_width="200px"
+                        android:layout_height="200px"
+                        android:layout_gravity="center"
+                        android:background="@drawable/icon_scanisbn"
+                        android:padding="10dp" />
+                </androidx.cardview.widget.CardView>
 
                 <TextView
                     android:layout_width="wrap_content"
@@ -87,11 +149,20 @@
                 android:orientation="vertical">
 
                 <androidx.cardview.widget.CardView
+                    android:id="@+id/cardview_addNewBook"
                     android:layout_width="120dp"
                     android:layout_height="120dp"
-                    app:cardBackgroundColor="@color/primary"
+                    app:cardBackgroundColor="@color/belizehole"
                     app:cardCornerRadius="10dp"
-                    app:cardElevation="15dp" />
+                    app:cardElevation="15dp">
+
+                    <ImageView
+                        android:layout_width="200px"
+                        android:layout_height="200px"
+                        android:layout_gravity="center"
+                        android:background="@drawable/icon_addbook"
+                        android:padding="10dp" />
+                </androidx.cardview.widget.CardView>
 
                 <TextView
                     android:layout_width="wrap_content"
@@ -109,11 +180,20 @@
                 android:orientation="vertical">
 
                 <androidx.cardview.widget.CardView
+                    android:id="@+id/cardview_bookRepository"
                     android:layout_width="120dp"
                     android:layout_height="120dp"
-                    app:cardBackgroundColor="#FFF200"
+                    app:cardBackgroundColor="@color/sunflower"
                     app:cardCornerRadius="10dp"
-                    app:cardElevation="15dp" />
+                    app:cardElevation="15dp">
+
+                    <ImageView
+                        android:layout_width="200px"
+                        android:layout_height="200px"
+                        android:layout_gravity="center"
+                        android:background="@drawable/icon_repository1"
+                        android:padding="10dp" />
+                </androidx.cardview.widget.CardView>
 
                 <TextView
                     android:layout_width="wrap_content"
