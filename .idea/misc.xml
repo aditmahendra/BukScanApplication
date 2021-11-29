@@ -3,8 +3,10 @@
   <component name="DesignSurface">
     <option name="filePathToZoomLevelMap">
       <map>
+        <entry key="..\:/Documents/COLLEGE DATA/Thesis (Final Project)/BukScanApplication/app/src/main/res/layout/activity_add_book.xml" value="0.22" />
         <entry key="..\:/Documents/COLLEGE DATA/Thesis (Final Project)/BukScanApplication/app/src/main/res/layout/activity_homepage.xml" value="0.22" />
         <entry key="..\:/Documents/COLLEGE DATA/Thesis (Final Project)/BukScanApplication/app/src/main/res/layout/activity_main.xml" value="0.1" />
+        <entry key="..\:/Documents/COLLEGE DATA/Thesis (Final Project)/BukScanApplication/app/src/main/res/layout/activity_scan_book_cover.xml" value="0.19375" />
         <entry key="..\:/Users/m250321009/Documents/Aditya Mahendra/Thesis/Final Project/app/src/main/res/drawable/background_button.xml" value="0.2703125" />
         <entry key="..\:/Users/m250321009/Documents/Aditya Mahendra/Thesis/Final Project/app/src/main/res/drawable/homepage_header.xml" value="0.2703125" />
         <entry key="..\:/Users/m250321009/Documents/Aditya Mahendra/Thesis/Final Project/app/src/main/res/drawable/rounder_corners.xml" value="0.19166666666666668" />

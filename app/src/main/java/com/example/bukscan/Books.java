@@ -4,6 +4,12 @@ public class Books {
     private String bookName;
     private String bookAuthors;
     private long bookISBN;
+    private String publishedBy;
+    private String bookBestFor;
+    private String bookInsights;
+    private String bookPositiveReview;
+    private String bookNegativeReview;
+
     public int id;
 
     public String getBookName(){
@@ -38,9 +44,63 @@ public class Books {
         this.id = id;
     }
 
-    public Books(String bookName, String bookAuthors, Long bookISBN){
+    public String getPublishedBy(){
+        return publishedBy;
+    }
+
+    public void setPublishedBy(String publishers){
+        this.publishedBy = publishers;
+    }
+
+    public String getBookBestFor(){
+        return bookBestFor;
+    }
+
+    public void setBookBestFor(String bestFor){
+        this.bookBestFor = bestFor;
+    }
+
+    public String getBookInsights(){
+        return bookInsights;
+    }
+
+    public void setBookInsights(String insights){
+        this.bookInsights = insights;
+    }
+
+    public String getBookPositiveReview(){
+        return bookPositiveReview;
+    }
+
+    public void setBookPositiveReview(String positiveReview){
+        this.bookPositiveReview = positiveReview;
+    }
+
+    public String getBookNegativeReview(){
+        return bookNegativeReview;
+    }
+
+    public void setBookNegativeReview(String negativeReview){
+        this.bookNegativeReview = negativeReview;
+    }
+
+    public Books(
+            String bookName,
+            String bookAuthors,
+            Long bookISBN,
+            String publishedBy,
+            String bookBestFor,
+            String bookInsights,
+            String bookPositiveReview,
+            String bookNegativeReview){
         this.bookName = bookName;
         this.bookAuthors = bookAuthors;
         this.bookISBN = bookISBN;
+        this.publishedBy = publishedBy;
+        this.bookBestFor = bookBestFor;
+        this.bookInsights = bookInsights;
+        this.bookPositiveReview = bookPositiveReview;
+        this.bookNegativeReview = bookNegativeReview;
+
     }
 }

@@ -35,6 +35,7 @@ public class bookAdapter extends RecyclerView.Adapter<bookAdapter.ViewHolder> {
         holder.bookName.setText(book.getBookName());
         holder.bookAuthors.setText(book.getBookAuthors());
         holder.bookIsbn.setText(Long.toString(book.getBookISBN()));
+
     }
 
     @Override
@@ -43,7 +44,7 @@ public class bookAdapter extends RecyclerView.Adapter<bookAdapter.ViewHolder> {
     }
 
     public class ViewHolder extends RecyclerView.ViewHolder{
-        private TextView bookName, bookAuthors, bookIsbn;
+        private TextView bookName, bookAuthors, bookIsbn, bookPublisher, bookBestFor, bookInsights, bookPositiveReview, bookNegativeReview;
 
         public ViewHolder(@NonNull View itemView) {
             super(itemView);
