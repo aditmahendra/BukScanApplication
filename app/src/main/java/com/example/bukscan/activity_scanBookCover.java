@@ -66,7 +66,6 @@ public class activity_scanBookCover extends AppCompatActivity {
             public void onClick(View v) {
 
                 CropImage.activity().setGuidelines(CropImageView.Guidelines.ON).start(activity_scanBookCover.this);
-
             }
         });
 

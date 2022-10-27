@@ -4,14 +4,14 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    android:background="@color/primary"
+    android:background="#ffe6e6"
     android:gravity="center"
     tools:context=".MainActivity">
 
     <ImageView
         android:id="@+id/img_frontpage"
         android:layout_width="wrap_content"
-        android:layout_height="300dp"
+        android:layout_height="220dp"
         android:layout_alignParentLeft="true"
         android:layout_alignParentTop="false"
         android:layout_alignParentRight="true"
@@ -30,8 +30,8 @@
         <TextView
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
-            android:layout_marginTop="40dp"
-            android:text="BukScan"
+            android:layout_marginTop="20dp"
+            android:text="BOOKSCAN"
             android:textStyle="bold"
             android:textAlignment="center"
             android:textSize="40sp" />
@@ -44,12 +44,22 @@
 
         <Button
             android:id="@+id/frontBtn"
-            android:layout_marginTop="50dp"
+            android:layout_marginTop="30dp"
             android:layout_gravity="center"
-            android:layout_width="250dp"
-            android:layout_height="80dp"
+            android:layout_width="240dp"
+            android:layout_height="50dp"
             android:background="@drawable/rounder_corners"
-            android:text="Scan books" />
+            android:text="Login" />
+
+        <Button
+            android:id="@+id/registerBtn"
+            android:layout_marginTop="10dp"
+            android:layout_gravity="center"
+            android:layout_width="240dp"
+            android:layout_height="50dp"
+            android:background="@drawable/rounder_corners"
+            android:text="Register" />
+
 
     </LinearLayout>
 

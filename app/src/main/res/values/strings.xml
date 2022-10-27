@@ -1,5 +1,5 @@
 <resources>
-    <string name="app_name">bukScan</string>
+    <string name="app_name">bookScan</string>
     <string name="title_activity_add_book">activity_addBook</string>
     <!-- Strings used for fragments for navigation -->
     <string name="first_fragment_label">First Fragment</string>

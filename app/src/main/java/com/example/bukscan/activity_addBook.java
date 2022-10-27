@@ -33,7 +33,7 @@ public class activity_addBook extends AppCompatActivity {
         bookIsbnEdit = findViewById(R.id.bookIsbnTxt);
         bookBestForEdit = findViewById(R.id.bookBestForTxt);
         bookPublisherEdit = findViewById(R.id.bookPublisherTxt);
-        bookInsightsEdit = findViewById(R.id.bookInsights);
+//        bookInsightsEdit = findViewById(R.id.bookInsights);
         bookPositiveReviewEdit = findViewById(R.id.bookPositiveReviewTxt);
         bookNegativeReviewEdit = findViewById(R.id.bookNegativeReviewTxt);
 
